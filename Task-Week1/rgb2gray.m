@@ -1,4 +1,3 @@
-
 function [gray]=rgb_to_gray(rgb,option)
 [h ,w, l]=size(rgb);
 gray=zeros(h,w);
@@ -19,4 +18,3 @@ end
 gray= uint8(gray);
 imshow(gray);
 end
-
